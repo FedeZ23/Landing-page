@@ -1,60 +1,133 @@
 *{
-  padding: 0%; 
-  margin: 0%; 
+    padding: 0%; 
+    margin: 0%; 
+    
+}
   
-}
-
 header{
-    margin: 0% auto;
-    width: 1390px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+      margin: 0 auto;
+      width: auto;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(to right, white, red);
 }
 
+#logo{
+    margin-left: 40px;
+    border-radius: 100%;
+
+}
+  
 ul{
-    list-style: none;
+      list-style: none;
 }
-
+  
 .nav li a{
-background-color: white;
-color: rgb(15, 15, 15);
-text-decoration: none;
-padding: 15px 20px;
-display: block;
-margin-right: 20px;
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  margin-right: 20px;
 }
-
+  
 .nav li a:hover {
-    background-color: #d62f2f;
+      background-color: #d62f2f;
 }
-
+  
 .nav li ul{
-    display: none;
-    position: absolute;
-    min-width: 90px;
+      display: none;
+      position: absolute;
+      min-width: 90px;
 }
-
+  
 .nav li:hover > ul{
-    display: block;
+      display: block;
 }
-
+  
 .nav li ul li{
-    position: relative;
+      position: relative;
 }
-
+  
 nav li ul li ul{
-    right: 40px;
-    top: 0px;
+      right: 40px;
+      top: 0px;
 }
-
+  
 .nav > li{
-    float: left;
+      float: left;
 }
 
-body{
-    background-image: url(./Imagenes/combo2.jpg);
+.presentacion{
+    background: linear-gradient(to right, white, red);
+}
+  
+.hero{
+    display:flex;
+    max-width: 70%;
+    height: 70vh;
+    background-image: url(./Imagenes/Hamburguesas3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-left: 220px;
+
 }
 
+.caja{
+    max-width: 1000px;
+    margin: 0 15px 0;
+    height: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    flex-basis: 50%;
+    color: white;
+    text-align: left;
+    align-self: center;
+}
+
+h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 300px;
+
+}
+
+h4{
+    font-size: 22px;
+    line-height: .9;
+    padding-bottom: 10px;
+}
+
+button{
+    border-radius: 100px;
+    border-style: solid;
+    background-color: rgb(57, 57, 71);
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+    width: 95px;
+    height: 45px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.valores{
+    display:flex;
+    max-width: 70%;
+    height: 25vh;
+    background-color: rgb(70, 69, 69);
+    margin-left: 220px; 
+    margin-top: 20px;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin: 35px 15px;
+    color: white;
+}
