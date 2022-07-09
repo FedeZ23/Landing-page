@@ -18,7 +18,8 @@ header{
 #logo{
     margin-left: 40px;
     border-radius: 100%;
-
+    width: 120px;
+    height: 120px;
 }
   
 ul{
@@ -123,8 +124,9 @@ button{
     max-width: 70%;
     height: 25vh;
     background: linear-gradient(to right, rgb(150, 150, 21), rgb(226, 86, 21));
-    margin-left: 150px; 
+    margin-left: 195px; 
     margin-top: 20px;
+    
 }
 
 p{
