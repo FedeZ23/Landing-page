@@ -2,13 +2,19 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rico-Rico</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 </head>
 <body> 
     <header>
         <img id="logo" src="./Imagenes/logo.png" alt="">
         <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbutton">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul class="nav">
                 <li><a href="">Catalogo</a>
                     <ul>
@@ -54,7 +60,7 @@
                             <button>Productos</button>
                         </div>
                         <div class="boton2">
-                            <button>Nuestra historia</button>
+                            <button>Donde estamos</button>
                         </div>
                     </div>
                 </div>
@@ -62,6 +68,56 @@
                 <p>Trabajamos con una selección de carne de máxima calidad que tienen una maduración de 12 días, lo que permite lograr una textura más suave y realzar su aroma y sabor. La carne, al madurar, obtiene mayor sabor y consigue una terneza, una jugosidad y un aroma muy superiores. Cumplimos con todas las normas ISO que bromatologia nos exije.</p>
             </div>
         </section>
+        <section class="sucursales">
+            <div class="titulos">
+                <h2>Sucursales</h2>
+                <br>
+                <h3>Busca la que te quede mas cerca</h3>
+            </div>
+            <div class="direccion">
+                <input type="text" placeholder="Ingresa tu direccion">
+                <button>Buscar</button>
+            </div>
+        <!-- section cards -->
+        <section id="sucus">
+            <!-- card 1 -->
+            <div>
+                <img id="sucursal" src="./Imagenes/sucursales.jfif" alt="">
+                <h3>Sucursal San Cristobal</h3>
+                <h3>Direccion: Av. San Juan 3235</h3>
+                <h3>Tel-Whatsapp: 1149324567</h3>
+            </div>
+            <!-- card 2 -->
+            <div>
+                <img id="sucursal" src="./Imagenes/sucursales.jfif" alt="">
+                <h3>Sucursal Palermo</h3>
+                <h3>Direccion: Av. Santa Fe 3678</h3>
+                <h3>Tel-Whatsapp: 1148162532</h3>
+            </div>
+            <!-- card 3 -->
+            <div>
+                <img id="sucursal" src="./Imagenes/sucursales.jfif" alt="">
+                <h3>Sucursal Caballito</h3>
+                <h3>Direccion: Pedro Goyena 850</h3>
+                <h3>Tel-Whatsapp: 1142063450</h3>
+            </div>
+        </section>
+<footer>
+    <section class="footer">
+        <div class="instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>rico-rico</span>
+        </div>
+        <div class="facebook">
+            <i class="fa-brands fa-facebook"></i>
+            <span>ricorico_san_cristobal</span>
+        </div>
+        <div class="telefono">
+            <i class="fa-solid fa-phone"></i>
+            <span>0800-333-2834</span>
+        </div>
+    </section>
+</footer>
 </body>
 </html>      
         
